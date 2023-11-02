@@ -42,5 +42,12 @@ namespace LibaryOnlineApplication
         {
 
         }
+
+        private void btnCategories_Click(object sender, EventArgs e)
+        {
+            CategoriesForm category = new CategoriesForm();
+            category.Show();
+            this.Hide();
+        }
     }
 }

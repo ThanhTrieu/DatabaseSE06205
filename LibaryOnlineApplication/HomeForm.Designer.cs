@@ -58,6 +58,7 @@
             btnCategories.TabIndex = 1;
             btnCategories.Text = "Quan ly danh muc sach";
             btnCategories.UseVisualStyleBackColor = true;
+            btnCategories.Click += btnCategories_Click;
             // 
             // btnBook
             // 
